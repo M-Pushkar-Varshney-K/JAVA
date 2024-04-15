@@ -1,4 +1,4 @@
- class person{
+ abstract class person{
     void dis(){
         System.out.println("\nPerson");
     }
@@ -19,10 +19,9 @@
 
 public class T_29_02_24 {
     public static void main(String[] args) {
-        person p = new person();
         stu s = new stu();
 
-        show_check(p);
+        
         show_check(s);
             // s.dis();
             // s.check();
